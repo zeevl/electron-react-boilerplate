@@ -1,9 +1,14 @@
-import React from 'react';
-import { render } from 'react-dom';
-import { AppContainer } from 'react-hot-loader';
-import Root from './containers/Root';
-import { configureStore, history } from './store/configureStore';
 import './app.global.css';
+
+import { configureStore, history } from './store/configureStore';
+
+import { AppContainer } from 'react-hot-loader';
+import LogRocket from 'logrocket';
+import React from 'react';
+import Root from './containers/Root';
+import { render } from 'react-dom';
+
+LogRocket.init('scribeware/electron-react-boilerplate');
 
 const store = configureStore();
 

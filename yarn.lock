@@ -5259,6 +5259,10 @@ log-symbols@^1.0.2:
   dependencies:
     chalk "^1.0.0"
 
+logrocket@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-0.3.2.tgz#5cc908c0493263a9dc004e3bc895cdfd458042a9"
+
 lolex@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/lolex/-/lolex-1.6.0.tgz#3a9a0283452a47d7439e72731b9e07d7386e49f6"
